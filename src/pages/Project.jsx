@@ -2,31 +2,46 @@ import React from 'react'
 
 const projects = [
     {
-        title: "Currency-Converter_API",
+        title: "Full-Stack Food Delivery Website",
         description:
-            "A real-time currency converter using HTML, CSS, JavaScript, and API integration.",
-        img: "/images/currency.png",
-        link: "https://github.com/yourrepo",
+            "A complete food delivery platform with shop listings, live order tracking, partner dashboards, delivery partner assignment, and online payments using Razorpay. Built with React, Node.js, Express, and MongoDB.",
+        img: "src/assets/FoodApp2.png",
+        link: "https://github.com/Vivek009-hub/Food-Delivery-App",
     },
     {
-        title: "Amazon-clone",
+        title: "Real-Time Chat Application",
         description:
-            "An Amazon homepage clone built using pure HTML and CSS for a responsive UI.",
-        img: "/images/amazon.png",
-        link: "https://github.com/yourrepo",
+            "A real-time chat app featuring instant messaging, online user status, and live typing indicators using Socket.io, React, and Node.js.",
+        img: "src/assets/ChatApp.png",
+        link: "https://github.com/Vivek009-hub/Real-Time-Chat-Application",
     },
     {
-        title: "Todos list using React",
+        title: "Real-Time Weather Forecast Website",
         description:
-            "A dynamic To-Do List app using React, HTML, CSS, and JavaScript for task management.",
-        img: "/images/todo.png",
-        link: "https://github.com/yourrepo",
+            "A weather application that provides real-time temperature, humidity, and forecast updates using Weather API integration.",
+        img: "src/assets/WeatherApp.png",
+        link: "https://github.com/Vivek009-hub/WeatherApp",
+    },
+    {
+        title: "Personal Portfolio Website",
+        description:
+            "A modern, responsive personal portfolio showcasing skills, projects, and contact features. Built with React and Tailwind CSS.",
+        img: "src/assets/Portfolio.png",
+        link: "https://github.com/Vivek009-hub/Personal-Portfolio",
+    },
+    {
+        title: "Password Manager",
+        description:
+            "A secure password manager for storing and managing credentials with encryption features, built using React and local storage/crypto APIs.",
+        img: "src/assets/PassManager.png",
+        link: "https://github.com/Vivek009-hub/Password-Manager",
     },
 ];
 
+
 const Projects = () => {
     return (
-        <div className="min-h-[90vh] bg-black py-20 px-5">
+        <div id='project' className="min-h-[90vh] bg-black py-20 px-5">
 
             <h1 className="text-5xl font-bold text-center text-white mb-16">
                 My <span className="text-cyan-400">Projects</span>
