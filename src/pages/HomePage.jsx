@@ -97,7 +97,7 @@ function HomePage() {
                     <div className="absolute w-72 h-72 rounded-full bg-white blur-3xl opacity-30"></div>
 
                     <img
-                        src="src/assets/VIVEK KUMAR_7454943117.jpg"
+                    src="/assets/VIVEK KUMAR_7454943117.jpg"
                         alt="Profile"
                         className='w-82 h-82 rounded-full object-cover border-4 border-white 
                        relative shadow-[0_0_50px_rgba(255,255,255,0.3)]'

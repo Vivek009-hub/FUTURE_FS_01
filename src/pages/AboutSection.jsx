@@ -13,7 +13,7 @@ const AboutSection = () => {
                 <div className="absolute w-72 h-72 rounded-full bg-white blur-3xl opacity-20 animate-pulse"></div>
 
                 <img
-                    src="src/assets/VIVEK KUMAR_7454943117.jpg"
+                    src="/assets/VIVEK KUMAR_7454943117.jpg"
                     alt="Profile"
                     className='w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-4 border-white 
             relative shadow-[0_0_60px_rgba(255,255,255,0.3)] transform transition-transform duration-500 hover:scale-105'
