@@ -5,38 +5,39 @@ const projects = [
         title: "Full-Stack Food Delivery Website",
         description:
             "A complete food delivery platform with shop listings, live order tracking, partner dashboards, delivery partner assignment, and online payments using Razorpay. Built with React, Node.js, Express, and MongoDB.",
-        img: "public/assets/FoodApp2.png",
+        img: "/assets/FoodApp2.png",
         link: "https://github.com/Vivek009-hub/Food-Delivery-App",
     },
     {
         title: "Real-Time Chat Application",
         description:
             "A real-time chat app featuring instant messaging, online user status, and live typing indicators using Socket.io, React, and Node.js.",
-        img: "public/assets/ChatApp.png",
+        img: "/assets/ChatApp.png",
         link: "https://github.com/Vivek009-hub/Real-Time-Chat-Application",
     },
     {
         title: "Real-Time Weather Forecast Website",
         description:
             "A weather application that provides real-time temperature, humidity, and forecast updates using Weather API integration.",
-        img: "public/assets/WeatherApp.png",
+        img: "/assets/WeatherApp.png",
         link: "https://github.com/Vivek009-hub/WeatherApp",
     },
     {
         title: "Personal Portfolio Website",
         description:
             "A modern, responsive personal portfolio showcasing skills, projects, and contact features. Built with React and Tailwind CSS.",
-        img: "public/assets/Portfolio.png",
+        img: "/assets/Portfolio.png",
         link: "https://github.com/Vivek009-hub/Personal-Portfolio",
     },
     {
         title: "Password Manager",
         description:
             "A secure password manager for storing and managing credentials with encryption features, built using React and local storage/crypto APIs.",
-        img: "public/assets/PassManager.png",
+        img: "/assets/PassManager.png",
         link: "https://github.com/Vivek009-hub/Password-Manager",
     },
 ];
+
 
 
 const Projects = () => {
